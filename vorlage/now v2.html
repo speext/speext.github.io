@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Now - Daniel Kreutzer</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  
+  
+  <style>
+	:root {
+		--red:        #B22918;
+		--white:      #ffffff;
+		--yt-red:     #FF0000;
+		--schriftart: 'Roboto', sans-serif;
+		--background-color: #FBF9F9;
+	}
+
+
+	*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+	body {
+		font-family: var(--schriftart);
+		background-color: var(--background-color);
+		margin: 0;
+	}
+	
+	main {
+		max-width: 760px;
+		margin: 0 auto;
+		padding: 40px 24px;
+		line-height: 2;
+	}
+	
+	    /* ── NAV ── */
+    nav {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 28px 40px;
+      gap: 24px;
+    }
+
+    /* Logo */
+    .nav-logo img {
+      height: 44px;
+      width: auto;
+      display: block;
+    }
+
+    /* Nav-Links + Icons zusammen rechts */
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links a {
+  font-family: var(--font-nav);
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--nav-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.8);   /* ← neu */
+}
+
+    .nav-links a:hover {
+      color: var(--red);
+    }
+
+    /* Social Icons – Grundfarbe: Logo-Rot */
+    .nav-icons {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .nav-icons a {
+      display: flex;
+      align-items: center;
+      color: var(--red);
+      text-decoration: none;
+      transition: color 0.2s ease, filter 0.2s ease;
+    }
+
+    .nav-icons a svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    /* X → Hover: Weiß mit Glow */
+    .nav-icons a.icon-x:hover {
+      color: var(--x-white);
+      filter: drop-shadow(0 0 6px rgba(255,255,255,0.7));
+    }
+
+    /* YouTube → Hover: YouTube-Rot mit Glow */
+    .nav-icons a.icon-yt:hover {
+      color: var(--yt-red);
+      filter: drop-shadow(0 0 6px rgba(255,0,0,0.6));
+    }
+
+	
+	
+  </style>
+  
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="index.html">
+      <img src="logo.png" alt="Daniel Kreutzer Logo" />
+    </a>
+
+    <div class="nav-right">
+      <ul class="nav-links">
+		<!--<li><a href="writing.html">Writing</a></li>-->
+        <li><a href="now.html">Now</a></li>
+        <!--<li><a href="about.html">About</a></li>-->
+      </ul>
+
+      <div class="nav-icons">
+        <!-- X -->
+        <a href="https://x.com/danielkreutzer" class="icon-x" target="_blank" rel="noopener" aria-label="X">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a>
+
+        <!-- YouTube -->
+        <a href="https://youtube.com/@danielkreutzer" class="icon-yt" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+</nav>
+<main>
+	<h1>What I’m doing now</h1>
+	<p>(This is <a href="https://nownownow.com/about">a now page</a>. Read about it. See if you like it. If so, make one for your own site.)</p>
+
+	<h2>2026-01-18</h2>
+
+	<h3>Books</h3>
+	<ul>
+	  <li>Finished The Silence of the Lambs (the book). As someone who never watched the movie I expected Hannibal Lecter to have a bigger roal. I’m going to check out the movie soon. I’ll read or listen to Hannibal before checking out the movie.</li>
+	  <li>Finished audio book five of Red Rising. Going to take a pause until book seven comes out since someone mentioned it has an open ending (as one would expect).</li>
+	</ul>  
+
+	<h3>Life</h3>
+	<ul>
+	  <li>Tried out an Espresso machine at a friends house and see myself falling into the next rabbit hole.</li>
+	  <li>Bought a house. As someone working in the german construction industry, who is interested in AI, this will allow me to check for possible AI implementations without asking for anyones approval, since it’s all mine.</li>
+	  <li>Started to work out more often again. December always has a way of throwing me under the bus. But I’m back on track. As much as I dislike getting out of my warm bed, I’m never disappointed afterwards.</li>
+	</ul>
+
+	<h3>Tech</h3>
+	<ul>
+	  <li>As part of my project to write more on this site I’m going to revisit some of my S.T.A.N. projects, making the AI a truely personal assistant for everyday tasks.</li>
+	  <li>Removed a lot from my website and in an attempt of recursiveness included a now page.</li>
+	</ul>
+</main>
+</body>
+</html>
