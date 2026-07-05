@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Schlechter Prozess, schlechte KI
+title: "Schlechter Prozess, schlechte KI"
 date: 2026-07-05 13:20:00 +0200
 ---
 
