@@ -1,17 +1,7 @@
 ---
-datum: 2026-07-05
-typ:
-  - Notiz
-  - Post
-Themen:
-  - "[[KI]]"
-  - "[[Prozesse]]"
-  - "[[Systeme]]"
-von: 2026-07-04
-bis: 2026-07-05
-title: Schlechter Prozess, schlechte KI
-date: 2026-07-05
 layout: post
+title: Schlechter Prozess, schlechte KI
+date: 2026-07-05 13:20:00 +0200
 ---
 
 Ich liebe es, neue Infos über YouTube-Videos zu lernen, aber ich habe ein Problem. Das liegt nicht unbedingt an der Qualität der Videos. Mein Problem ist die Menge. Meine Watchlist quillt über mit Unterhaltungsvideos und Tutorials, bei denen ich mir in der Vergangenheit gedacht habe: "Das muss ich mir anschauen". Nur wer tut das schon?
