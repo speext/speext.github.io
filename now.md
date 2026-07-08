@@ -4,7 +4,6 @@ title: Now
 permalink: /now/
 ---
 
-# Aktuelles
 Das ist eine [now page](https://nownownow.com/about). Inspiriert von [Derek Sivers](https://sive.rs/). Ich hab keine Zeit das zu erklären. [Siehe hier für weitere Infos!](https://nownownow.com/about)
 
 # 2027-07-07
