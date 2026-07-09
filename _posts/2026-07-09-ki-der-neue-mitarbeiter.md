@@ -1,7 +1,7 @@
 ---
 date: 2026-07-09
 layout: post
-title: '"KI braucht gute Vorlagen. Neue Mitarbeiter auch."'
+title: "KI braucht gute Vorlagen. Neue Mitarbeiter auch."
 ---
 Berichterstellung gehört zu einer der Standard-Aufgaben in einem Ingenieurbüro. Dabei gibt es in den meisten Büros einen klar definierten Prozess nach dem Berichte erstellt werden. Dieser Prozess lässt sich grob zusammenfassen in: "Nimm dir die letzten drei Berichte, schau dir an wie die aufgebaut sind und pass erstmal die entsprechenden Sachen an. Dann schauen wir weiter."
 
