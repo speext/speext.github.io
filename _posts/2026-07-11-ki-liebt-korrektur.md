@@ -23,3 +23,5 @@ Ich finde das interessanter auf der gesellschaftlichen Ebene als auf der technis
 Wir versuchen der KI immer mehr von uns aufzudrängen. Sie besser zu gestalten und menschlicher zu machen. Was auch immer das letztere heißt. Vielleicht sollten wir versuchen die KI so zu gestalten, dass sie manche Dinge besser macht als wir. Zum Beispiel Fehler eingestehen und es nicht zwanghaft besser zu wissen. Vielleicht beeinflusst die KI uns dann im Gegenzug auch positiv und wir lernen voneinander.
 
 Aber hey. Was weiß ich schon.
+
+(Das hier ist ein Test)[%post_url 2026-07-10-harness-trust-me%]
