@@ -24,4 +24,4 @@ Wir versuchen der KI immer mehr von uns aufzudrängen. Sie besser zu gestalten u
 
 Aber hey. Was weiß ich schon.
 
-[Das hier ist ein Test](%post_url 2026-07-10-harness-trust-me%)
+[Das hier ist ein Test]({%post_url 2026-07-10-harness-trust-me%})
